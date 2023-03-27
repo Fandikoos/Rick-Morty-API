@@ -47,7 +47,7 @@ const apiRick = async (pagina)=>{
                     <p class="card-text"><b><u>Species:</u></b> ${item.species}</p>
                     <p class="card-text"><b><u>Gender:</u></b> ${item.gender}</p>
                     <p class="card-text"><b><u>Status:</u></b> ${item.status}</p>
-                    <a href="" class="btn btn-primary">See info</a>
+                    <a href="http://127.0.0.1:5500/detail_pag.html?id=${item.id}" id="detail_card" class="btn btn-primary">See info</a>
                 </div>
             </div>
             `
