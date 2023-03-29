@@ -25,19 +25,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const cardDetail = document.createElement("div");
       cardDetail.classList.add("maxi-card-detail");
     cardDetail.innerHTML = `
-    <div class="card-detail" style="width: 18rem;">
+    <div class="card" style="width: 18rem; border: 3px solid black;">
       <img src="${item.image}" class="card-img-top" alt="imagen del personaje">
-      <div class="card-body-detail">
+      <div class="card-body">
         <h5 class="card-title">${item.name}</h5>
-        <p class="card-text">Bienvenido a la página detallada de ${item.name}</p>
+        <p class="card-text">Welcome to ${item.name} detailed page</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">${item.gender}</li>
-        <li class="list-group-item">${item.status}</li>
-        <li class="list-group-item">${item.species}</li>
+        <li class="list-group-item"><b> Origin: </b>${item.origin.name}</li>  
+        <li class="list-group-item"><b> Gender: </b>${item.gender}</li>
+        <li class="list-group-item"><b> Status: </b>${item.status}</li>
+        <li class="list-group-item"><b> Specie: </b>${item.species}</li>
       </ul>
-      <div class="card-body-detail">
-        <a href="#" class="card-link">Que vaya al index</a>
+      <div class="card-body">
+        <a href="http://127.0.0.1:5500/index.html" class="card-link"><b>Go API index</b></a>
       </div>
   </div>
     `
