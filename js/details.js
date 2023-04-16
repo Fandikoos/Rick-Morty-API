@@ -33,12 +33,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item"><b> Origin: </b>${item.origin.name}</li>  
+        <li class="list-group-item"><b> Location: </b>${item.location.name}</li>  
         <li class="list-group-item"><b> Gender: </b>${item.gender}</li>
         <li class="list-group-item"><b> Status: </b>${item.status}</li>
         <li class="list-group-item"><b> Specie: </b>${item.species}</li>
       </ul>
       <div class="card-body">
-        <a href="http://127.0.0.1:5500/index.html" class="card-link"><b>Go API index</b></a>
+        <a href="index.html" class="card-link"><b>Go index</b></a>
       </div>
   </div>
     `
