@@ -1,5 +1,5 @@
 const apiRickEpisodes = async (pagina) => {
-    let url = 'https://rickandmortyapi.com/api/episode?page='
+    let url = 'https://rickandmortyapi.com/api/episode?page='+ pagina
     const api = await fetch(url)
     const data = await api.json();
     console.log(data);
