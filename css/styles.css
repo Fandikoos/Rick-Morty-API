@@ -12,7 +12,7 @@ body{
 nav{
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 19%, rgba(55,249,240,1) 100%, rgba(2,0,36,1) 100%);
-    border: 3px solid;
+    border: 2px solid;
 }
 
 .grid{
